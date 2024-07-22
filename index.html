@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First_portpolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="icon" href="./images/icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        
+        <!-- quick menu -->
+        <div class="delivery">
+            <h3 class="ir_su">퀵메뉴</h3>
+            <section class="quick">
+                <article class="quick_cover">
+                    <div><img src="./images/6_bill/cover.png" alt="퀵메뉴 커버이미지"></div>
+                </article><!-- //quick cover -->
+                <article class="bill"><!-- quick menu 내용 -->
+                    <ul>
+                        <li>
+                            <h4 class="ir_su">배송문의</h4>
+                            <a href="javascript:;"><img src="./images/6_bill/delivery.png" alt="배송문의"></a>
+                            <span>배송문의</span>
+                        </li>
+                        <li>
+                            <h4 class="ir_su">제품문의</h4>
+                            <a href="javascript:;"><img src="./images/6_bill/help.png" alt="제품문의"></a>
+                            <span>제품문의</span>
+                        </li>
+                        <li>
+                            <h4 class="ir_su">주문내역</h4>
+                            <a href="javascript:;"><img src="./images/6_bill/clipboard.png" alt="주문내역"></a>
+                            <span>주문내역</span>
+                        </li>
+                        <li>
+                            <h4 class="ir_su">장바구니</h4>
+                            <a href="javascript:;"><img src="./images/6_bill/shopping-bag.png" alt="장바구니"></a>
+                            <span>장바구니</span>
+                        </li>
+                    </ul>
+                </article><!-- // .bill -->
+            </section><!-- // .quick -->
+        </div><!-- // .delivery  -->
+        
+        <!-- #header -->
+        <header id="header">
+            <div class="container">
+                <!-- .header -->
+                <div class="header">
+                    <!-- .popup -->
+                    <div class="popup">
+                        <h3 class="ir_su">이벤트 팝업창</h3>
+                        <ul>
+                            <li>
+                                <a href="javascript:;">진행중인 이벤트안내
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">회원가입시 궁디팡팡 첫 결제 30% 할인 쿠폰받기</a>
+                                <img src="./images/1_header/popup/cupon.png" alt="할인쿠폰이미지">
+                            </li>
+                            <li>
+                                <p class="clearfix">
+                                    <span>[오늘은 더 안볼래요] &nbsp;</span>
+                                    <span class="close"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- // .popup -->
+
+                    <!-- #login 버튼 -->
+                    <div id="login_btn">
+                        <h2 class="ir_su">로그인버튼</h2>
+                        <a href="javascript:;">LOG - IN&nbsp;&nbsp;</a>
+                    </div>
+                    <!-- // #login 버튼 -->
+                    
+                    <!-- login_click 이벤트창 -->
+                    <div id="login_wrap">
+                        <h4 class="ir_su">로그인 정보</h4>
+                        <div class="log_close">
+                            <span>닫기</span>
+                        </div>
+                        <form id="login_form" name="login_form" method="post">
+                            <fieldset>
+                                <legend class="ir_su">로그인 및 관련설정</legend>
+                                <div class="login_header">
+                                    <h5 class="ir_su">로그인 보안</h5>
+                                    <div class="lh_check">
+                                        <input type="checkbox" id="infor_check" class="input_check">
+                                        <label for="infor_check">로그인 상태 유지</label>
+                                    </div>
+                                    <div class="lh_ip">
+                                        IP보안 <em>ON</em>
+                                    </div>
+                                </div>
+                                <div class="login_content mt15">
+                                    <h5 class="ir_su">로그인 영역</h5>
+                                    <div class="lc_text">
+                                        <label for="uid" class="ir_su">로그인</label>
+                                        <input type="text" name="uid" id="uid" class="input_text" placeholder="반려동물 이름" maxlength="20">
+
+                                        <label for="upw" class="ir_su">비밀번호</label>
+                                        <input type="password" name="upw" id="upw" class="input_text" placeholder="반려동물과의 비밀번호" maxlength="20">
+                                    </div>
+                                    <div class="lc_btn">
+                                        <button class="lc_btn_login" type="submit">로그인</button>
+                                    </div>
+                                </div>
+                                <div class="login_footer mt10">
+                                    <ul>
+                                        <li>
+                                            <a class="joIn" href="javascript:;"><strong>회원가입</strong></a>
+                                        </li>
+                                        <li>
+                                            <a class="iD" href="javascript:;">아이디</a>&middot;
+                                            <a class="paSs" href="javascript:;">비밀번호</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <!-- // login_click 이벤트창 -->
+
+                    <!-- logo -->
+                    <div class="logo">
+                        <h1 class="ir_su">로고</h1>
+                        <a href="#"><img src="./images/1_header/logo/logo.png" alt="궁디팡팡 로고"></a>
+                    </div>
+                    <!-- // logo -->
+                    
+                    <!-- nav -->
+                    <div class="nav">
+
+                        <!-- 햄버거메뉴-->
+                                <!-- 햄버거_버튼 -->
+                        <div class="eject_btn">
+                            <h3 class="ir_su">전체메뉴</h3>
+                            <a href="javascript:;"><i class="fa-solid fa-eject"></i></a>              
+                                <!-- //햄버거_버튼 -->
+                            
+                            <!-- 햄버거_하부메뉴 -->
+                            <article class="eject">
+                                <ul class="eject_ul">
+                                    <li class="eject_menu"><a href="javascript:;">강아지</a>
+                                        <ul class="eject_sub">
+                                            <li><a href="javascript:;">악세서리</a></li>
+                                            <li><a href="javascript:;">하우스</a></li>
+                                            <li><a href="javascript:;">목줄</a></li>
+                                            <li><a href="javascript:;">로프</a></li>
+                                            <li><a href="javascript:;">입마개</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="eject_menu"><a href="javascript:;">고양이</a>
+                                        <ul class="eject_sub">
+                                            <li><a href="javascript:;">악세서리</a></li>
+                                            <li><a href="javascript:;">숨숨집</a></li>
+                                            <li><a href="javascript:;">타워</a></li>
+                                            <li><a href="javascript:;">모래</a></li>
+                                            <li><a href="javascript:;">스크래쳐</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="eject_menu"><a href="javascript:;">기타</a>
+                                        <ul class="eject_sub">
+                                            <li><a href="javascript:;">특수동물용품</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </article>
+                            <!-- // 햄버거_하부메뉴 -->
+                        </div>
+                        <!-- //햄버거메뉴 -->
+
+                        <!-- 간편메뉴(개,고양이, 기타) -->
+                        <div class="nav_menu">
+                            <h3 class="ir_su">제품메뉴</h3>
+                            <div class="tabbtn">
+                                <ul class="tab_list clearfix">
+                                    <li class="active"><a href="javascript:;">강아지</a></li>
+                                    <li><a href="javascript:;">고양이</a></li>
+                                    <li><a href="javascript:;">기타</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- // 간편메뉴(개,고양이, 기타) -->
+                    
+                    </div>
+                    <!-- // nav -->
+                </div>
+                <!-- // .header -->
+            </div><!-- // .container -->
+        </header>
+        <!-- // #header -->
+
+        <!-- #slide_slick -->
+        <div id="slide" class="mt40">
+            <h3 class="ir_su">메인제품_이미지</h3>
+            <div class="slideImg">
+                <div class="slideImg_slick s1"></div>
+                <div class="slideImg_slick s2"></div>
+                <div class="slideImg_slick s3"></div>
+            </div>
+        </div>
+        <!-- // #slide_slick -->
+
+        <!-- #contents_wrap -->
+        <div id="contents" class="mt_main">
+            <div class="container">
+                <!-- contents_제목+이미지 -->
+                <section class="cont mt_main">
+                    <h3 class="ir_su">제품목록</h3>
+                    
+                    <!-- 제품_목록 -->
+                    <article class="shop">
+                        <ul class="clearfix">
+                            <li class="shop_name">SHOP</li>
+                            <li class="more">더보기</li>
+                        </ul>
+                        <div class="more_box">
+                            <span>시간관계상 더보기 기능등 몇가지 기능을 구현하지 못함을 양해바랍니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;교육생_배상</span>
+                            <p>닫기</p>
+                        </div>
+
+                        <!-- 제품_이미지 -->
+                        <div class="contImg">
+                            <!-- 강아지용 제품 -->
+                            <ul class="cont_dog clearfix">
+                                <li class="allImg_li dogImg"><a href="javascript:;"><img src="./images/3_cont/dog/cont1-1.png" alt="강아지 제품이미지1"></a></li>
+                                <li class="allImg_li dogImg"><a href="javascript:;"><img src="./images/3_cont/dog/cont1-2.png" alt="강아지 제품이미지2"></a></li>
+                                <li class="allImg_li dogImg"><a href="javascript:;"><img src="./images/3_cont/dog/cont1-3.png" alt="강아지 제품이미지3"></a></li>
+                                <li class="allImg_li dogImg"><a href="javascript:;"><img src="./images/3_cont/dog/cont1-4.png" alt="강아지 제품이미지4"></a></li>
+                                <li class="allImg_li dogImg"><a href="javascript:;"><img src="./images/3_cont/dog/cont1-5.png" alt="강아지 제품이미지5"></a></li>
+                                <li class="allImg_li dogImg"><a href="javascript:;"><img src="./images/3_cont/dog/cont1-6.png" alt="강아지 제품이미지6"></a></li>
+                            </ul>
+                            <!-- //강아지용 제품 -->
+                            
+                            <!-- 고양이용 제품 -->
+                            <ul class="cont_cat clearfix">
+                                <li class="allImg_li catImg"><a href="javascript:;"><img src="./images/3_cont/cat/cont2-1.png" alt="고양이 제품이미지1"></a></li>
+                                <li class="allImg_li catImg"><a href="javascript:;"><img src="./images/3_cont/cat/cont2-2.png" alt="고양이 제품이미지2"></a></li>
+                                <li class="allImg_li catImg"><a href="javascript:;"><img src="./images/3_cont/cat/cont2-3.png" alt="고양이 제품이미지3"></a></li>
+                                <li class="allImg_li catImg"><a href="javascript:;"><img src="./images/3_cont/cat/cont2-4.png" alt="고양이 제품이미지4"></a></li>
+                                <li class="allImg_li catImg"><a href="javascript:;"><img src="./images/3_cont/cat/cont2-5.png" alt="고양이 제품이미지5"></a></li>
+                                <li class="allImg_li catImg"><a href="javascript:;"><img src="./images/3_cont/cat/cont2-6.png" alt="고양이 제품이미지6"></a></li>
+                            </ul>
+                            <!-- //고양이용 제품 -->
+                            
+                            <!-- 기타제품 -->
+                            <ul class="cont_etc clearfix">
+                                <li class="allImg_li etcImg"><a href="javascript:;"><img src="./images/3_cont/etc/etc3-1.png" alt="기타 제품이미지1"></a></li>
+                                <li class="allImg_li etcImg"><a href="javascript:;"><img src="./images/3_cont/etc/etc3-2.png" alt="기타 제품이미지2"></a></li>
+                                <li class="allImg_li etcImg"><a href="javascript:;"><img src="./images/3_cont/etc/etc3-3.png" alt="기타 제품이미지3"></a></li>
+                                <li class="allImg_li etcImg"><a href="javascript:;"><img src="./images/3_cont/etc/etc3-4.png" alt="기타 제품이미지4"></a></li>
+                                <li class="allImg_li etcImg"><a href="javascript:;"><img src="./images/3_cont/etc/etc3-5.png" alt="기타 제품이미지5"></a></li>
+                                <li class="allImg_li etcImg"><a href="javascript:;"><img src="./images/3_cont/etc/etc3-6.png" alt="기타 제품이미지6"></a></li>
+                            </ul>
+                            <!-- //기타제품 -->
+                        </div><!-- //제품_이미지 -->
+                    </article><!-- //제품_목록 -->
+
+                </section><!-- //contents_제목+이미지 -->
+            </div><!-- //contents_container -->
+        </div>
+        <!-- // #contents_wrap -->
+
+        <!-- #link -->
+        <div id="link" class="mt_main2">
+            <div class="container">
+                <div class="link">
+                    <!-- 링크 배경화면 -->
+                    <div class="linkImg">
+                        <ul class="linkImg_ul">
+                            <li class="linkImg_list"><a href="javascript:;"><img src="./images/4_link/1_bg/linkbg1.png" alt="링크사이트 배경이미지1"></a></li>
+                            <li class="linkImg_list"><a href="javascript:;"><img src="./images/4_link/1_bg/linkbg2.png" alt="링크사이트 배경이미지1"></a></li>
+                            <li class="linkImg_list"><a href="javascript:;"><img src="./images/4_link/1_bg/linkbg3.png" alt="링크사이트 배경이미지1"></a></li>
+                            <li class="linkImg_list"><a href="javascript:;"><img src="./images/4_link/1_bg/linkbg4.png" alt="링크사이트 배경이미지1"></a></li>
+                            <li class="linkImg_list"><a href="javascript:;"><img src="./images/4_link/1_bg/linkbg5.png" alt="링크사이트 배경이미지1"></a></li>
+                        </ul>
+                    </div><!-- //.linkImg -->
+                    <!-- // 링크 배경화면 -->
+                    
+                    <!-- 공지사항/제품후기_탭메뉴 -->
+                    <div class="notice">
+                        <h3 class="ir_su">공지사항/제품후기</h3>
+                        <div class="noti">
+                            <ul class="notice_ul clearfix">
+                                <!-- 공지사항_탭 -->
+                                <li class="notice_li active"><a href="javascript:;">공지사항</a>
+                                    <ul class="notice_list">
+                                        <li class="clearfix">
+                                            <a href="javascript:;">신상플랫 각 제품별 사이즈 변경 상세안내 및 착용 주의점 안내</a>
+                                            <span>2024-05-07</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <a href="javascript:;">제휴사이트 5월 이벤트 안내! 룰렛이벤트도 진행중입니다. 많이 참여해주세요~!</a>
+                                            <span>2024-05-07</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <a href="javascript:;"> MBBC 방송 후 화제! 반려견용 '화식' 신상입고 및 공동구매 이벤트 안내</a>
+                                            <span>2024-05-06</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <a href="javascript:;">집사야 같이놀자~~ 함께하기 좋은 반려동물 운동장 안내</a>
+                                            <span>2024-05-06</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <a href="javascript:;">[필독] 드론촬영 금지구역 관련 공지사항!!!</a>
+                                            <span>2024-05-05</span>
+                                        </li>
+                                    </ul>
+                                </li>   <!-- 공지사항_탭 -->
+                                <!-- 제품후기_탭 -->
+                                <li class="notice_li"><a href="javascript:;">제품후기</a>
+                                    <ul class="notice_list">
+                                        <li class="clearfix">
+                                            <a href="javascript:;">저희 빡돌이가 화식먹고 2kg가 쪘습니다.... 사료랑 같이 배식하시는분들은 참고하세요</a>
+                                            <span>2024-05-07</span> 
+                                        </li>
+                                        <li class="clearfix">
+                                            <a href="javascript:;">생에 처음으로 이벤트 당첨되었습니다. 감사합니다~~~ 너무 신나요!!!</a>
+                                            <span>2024-05-07</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <a href="javascript:;">룰렛당첨!!!!! 사기는 아니었구만~</a>
+                                            <span>2024-05-06</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <a href="javascript:;">화식만 먹이고 있는데, 다 좋은데...... 비용이 많이듭니다;;; 사료랑 같이주세요</a>
+                                            <span>2024-05-05</span>
+                                        </li>
+                                        <li class="clearfix">
+                                            <a href="javascript:;">체이서 멍뭉이 간식구매했는데요, 생각보다 저희 아이는 잘 안먹더라구요 ㅠㅠ </a>
+                                            <span>2024-05-05</span>
+                                        </li>
+                                    </ul><!-- //.notice_list -->
+                                </li>  <!-- //제품후기_탭 -->
+                                <!-- 공지/후기_더보기 -->
+                                <span class="noti_more"><a href="javascript:;">더보기</a>
+                                    <article class="noti_morebox">
+                                        <span>위에서 말씀드린대로 시간관계상...... 더이상의 설명은 그...... 저도 많이 힘듭니다. 안할려고 그런게 아닙니다. 감사합니다.
+                                            <p>닫기</p>
+                                        </span>
+                                    </article>
+                                </span>  <!-- //공지/후기_더보기 -->
+                            </ul>
+                        </div>
+                    </div>  <!-- // 공지사항/제품후기_탭메뉴 -->
+                    <!--  제휴사이트 -->
+                    <div class="desc">
+                        <h3 class="ir_su">제휴사이트</h3>
+                        <div class="descImg">
+                            <div class="descImg_slick d1"></div>
+                            <div class="descImg_slick d2"></div>
+                            <div class="descImg_slick d3"></div>
+                        </div>
+                        <div class="desc_logo">
+                            <a href="javascript:;">
+                                <img src="./images/4_link/3_site/link_logo.png" alt="제휴사이트 로고">
+                            </a>
+                        </div>
+                    </div>  <!--  //제휴사이트 -->
+                </div>
+            </div>
+        </div>
+        <!-- // #link -->
+        
+        <!-- #footer -->
+        <footer id="footer">
+            <div class="container">
+                <div class="f_logo mt_main2"><img src="./images/5_footer/f_logo.png" alt="푸터로고"></div>
+                <article class="footer">
+                    <ul class="footer_ul">
+                        <li><span>Copyright 궁디팡팡</span></li>
+                        <li><em>사업자 등록번호 : 123-55-99987</em></li>
+                        <li><p>주소 : 서울시 강서구 화곡로 88-888</p></li>
+                        <li><p>Tel : 02-2600-9999</p></li>
+                    </ul>
+                    <div class="sns">
+                        <a href="javascript:;"><img src="./images/5_footer/youtube.png" alt="유투브_버튼"></a>
+                        <a href="javascript:;"><img src="./images/5_footer/insta.png" alt="인별_버튼"></a>
+                        <a href="javascript:;"><img src="./images/5_footer/kakao.png" alt="카카오_버튼"></a>
+                    </div>
+                </article>
+            </div>
+        </footer>
+        <!-- //#footer -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script/slick.js"></script>
+    <script>
+           // 제휴사이트 슬릭
+           $('.descImg').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay:true,
+            dots: true,
+            arrows: false,
+        });
+
+        // 공지사항 더보기 메뉴
+        $(".noti_more > a").click(function(){
+            $(".noti_morebox").fadeIn();
+        });
+        $(".noti_morebox > span > p").click(function(){
+            $(".noti_morebox").fadeOut();
+        });
+
+        // 링크_공지사항/제품후기_탭메뉴
+        const notiLi = $(".noti .notice_li");
+        const notiList = $(".notice_li .notice_list");
+        notiList.hide().eq(1).show();
+
+        notiLi.mouseover(function(e){
+            e.preventDefault();
+            let target = $(this);
+            let index = target.index();
+            console.log(index);
+            notiList.hide().eq(index).show();
+            notiLi.removeClass("active");
+            target.addClass("active");
+        });
+
+        // 링크_배경화면이미지_페이드 효과
+        const List = $(".linkImg_ul");
+        const List_img = $(".linkImg_ul > .linkImg_list")
+        List_img.hide().eq(0).show();
+        setInterval(function(){
+            $(".linkImg_list:first-child").fadeOut(3500).next().fadeIn(3700).end().appendTo(List);
+        },5500);
+
+        // 더보기 메뉴
+        $(".more").click(function(){
+            $(".more_box").fadeIn();
+        });
+        $(".more_box p").click(function(){
+            $(".more_box").fadeOut();
+        });
+
+        // 탭메뉴
+        const tabBtn = $(".tabbtn .tab_list li");
+        const tabCont = $(".shop .contImg ul");
+        tabCont.hide().eq(0).show();
+        tabBtn.click(function(){
+            let target = $(this);
+            let index = target.index();
+            console.log(index);
+            tabBtn.removeClass("active");
+            target.addClass("active")
+            tabCont.hide().eq(index).show();
+        });
+        
+        // slide 슬릭
+        $('.slideImg').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay:true,
+            dots: true,
+            arrows: false,
+        });
+
+        // 햄버거 메뉴_메인메뉴
+        $(".eject_btn").mouseover(function(){
+            $(".eject_menu").stop().slideDown(500);
+        });
+        $(".eject_btn").mouseout(function(){
+            $(".eject_menu").stop().slideUp(500);
+        });
+
+
+        // 햄버거 메뉴_서브메뉴
+        $(".eject_menu").mouseover(function(){
+            $(this).find(".eject_sub").stop().slideDown(500);
+        });
+        $(".eject_menu").mouseout(function(){
+            $(this).find(".eject_sub").stop().slideUp(500);
+        });
+
+
+        // login 이벤트창
+        $("#login_btn>a").click(function(){
+            $("#login_wrap").fadeIn();
+        });
+        $(".log_close").click(function(){
+            $("#login_wrap").fadeOut();
+        });
+
+
+        // popup 이벤트창
+        $(".close").click(function(){
+            $(".popup").slideUp();
+        });
+    </script>
+</body>
+</html>
